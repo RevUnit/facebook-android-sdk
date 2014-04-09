@@ -33,4 +33,8 @@ android {
             res.srcDirs = ['facebook/res']
         }
     }
+
+    lintOptions {
+        abortOnError false;
+    }
 }
